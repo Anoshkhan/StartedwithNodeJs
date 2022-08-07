@@ -10,9 +10,7 @@ const fs = require('fs');
 
 //fs.writeFile('file2.txt', "This is a test code",()=>{
 //  console.log("content written")
-//})
-const wf = fs.writeFileSync('file2.txt', "This is a test code to store",()=>{
-    console.log())
-});
+const wf = fs.writeFileSync('file2.txt', "This is a test code 2");
+console.log(wf)
 
 console.log("Finished reading file")
